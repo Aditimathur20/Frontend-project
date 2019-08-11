@@ -1,2 +1,129 @@
 /* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
 the title "ScriBBler" & the sub-heading below "ScriBBLer" */
+/* Set a style for all elements inside the header i.e. Sign Up button, Sign In button,
+the title "ScriBBler" & the sub-heading below "ScriBBLer" */
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 10px;
+}
+
+.title-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.blue-button{
+	background-color: blue;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 5px;
+	padding-left:5px;
+	width:100px;
+	color:white;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 14px;
+}
+
+.title{
+	font-family: 'Satisfy', cursive;
+	font-size: 50px;
+	color: #0000d7;
+	margin: 0;
+}
+
+.sub-title{
+	font-family: 'Marck Script', cursive;
+	font-size: 10;
+	color: black;
+	margin: 0;
+}
+
+.login-buttons-container{
+	padding: 10px;
+}
+
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 100; /* Sit on top */
+	padding: 30px 20px 100px 20px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	padding: 10px;
+	outline: none;
+	font-family: Abel;
+}
+
+.label-text {
+
+	font-weight: bold;
+	margin: 10px 0;
+	font-family: Abel;
+	border:none;
+	outline: none;
+}
+
+.modal-content{
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	/*border: 1px solid #888;*/
+	width: 40%;
+}
+
+.modal-head {
+	display: flex;
+	flex-direction: column;
+}
+
+.close {
+	display: flex;
+	align-self: flex-end;
+	cursor: pointer;
+}
+
+.modal-title{
+	align-self: center;
+	font-family: Abel;
+}
+
+.signin-btn {
+	background-color: green;
+	padding: 10px;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 20px;
+	cursor: pointer;
+	font-family: Abel;
+}
+
+.signup{
+	border:none;
+	color: blue;
+	font-weight: bolder;
+	margin-left: 10px;
+	cursor: pointer;
+	font-family: Abel;
+}
+
+.bottom-banner{
+	font-family: Abel;
+	text-align: center;
+}
